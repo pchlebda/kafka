@@ -19,7 +19,6 @@ spring:
                 headers: false
 
 
-main:
-  topic:
-    consumer: test_topic
-    producer: test_producer
+kafka:
+    inputTopic: test_topic
+    outputTopic: test_producer
